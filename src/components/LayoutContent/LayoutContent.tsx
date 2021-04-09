@@ -7,7 +7,16 @@ import ImagemStock from '../../assets/stockImage1.svg'
 import {FiUser} from 'react-icons/fi'
 const { Header, Content, Footer } = Layout;
 
-export const LayoutContent: React.FC = () => {
+interface IProps{
+
+  title?: String;
+  children?: String;
+  isForm?: boolean;
+}
+
+
+//export const LayoutNav = (props : IProps) : JSX.Element => {
+export const LayoutContent = (props : IProps) : JSX.Element => {
 
   return (
 

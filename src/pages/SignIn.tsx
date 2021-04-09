@@ -5,6 +5,7 @@ import {increment, decrement} from '../store/Stock/stock.actions'
 import {LayoutNav} from '../components/LayoutNav/LayoutNav'
 import {LayoutContent} from '../components/LayoutContent/LayoutContent'
 import {LayoutFooter} from '../components/LayoutFooter'
+import {FormRegisterUser} from '../components/FormRegisterUser/FormRegisterUser'
 
 const SignIn: React.FC = () => {
 
@@ -15,7 +16,8 @@ return (
 
   <>
 
-    <h1> Sign In </h1>  
+    <LayoutNav title="Registration"/>
+    <FormRegisterUser />
   
   </>
 )

@@ -15,7 +15,7 @@ return (
 
   <>
     
-    <LayoutNav />
+    <LayoutNav title= "Stock System" />
     <LayoutContent/>
     <LayoutFooter children="©2021 Created by Santloth"/>
     {/* {stock}
